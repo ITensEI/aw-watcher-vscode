@@ -44,6 +44,26 @@
                     "type": "number",
                     "default": 1,
                     "description": "Controls the maximum number of hearbeats sent per second."
+                },
+                "aw-watcher-vscode.baseURL": {
+                    "type": "string",
+                    "default": "",
+                    "description": "Base URL of the ActivityWatch server. If set, this overrides host and port. Example: 'http://192.168.1.3:5600'"
+                },
+                "aw-watcher-vscode.host": {
+                    "type": "string",
+                    "default": "127.0.0.1",
+                    "description": "Host of the ActivityWatch server."
+                },
+                "aw-watcher-vscode.port": {
+                    "type": "number",
+                    "default": 5600,
+                    "description": "Port of the ActivityWatch server."
+                },
+                "aw-watcher-vscode.testing": {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "Enable testing mode. For development use only."
                 }
             }
         }
